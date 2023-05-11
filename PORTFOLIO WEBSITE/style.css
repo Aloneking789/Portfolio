@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Fira+Sans:ital,wght@1,300&family=Lobster&family=Source+Code+Pro:ital@1&display=swap');
+*{
+    margin:0;
+    padding :0;
+
+}
+.sidebar{
+    background-color: rgb(67, 65, 65);
+    width: 14vw;
+    font-family: font-family'Fira Sans', sans-serif;
+    ;
+}
+.sidebar nav{
+    padding: 36px;
+
+}
+.sidebar nav li{
+    list-style: none;
+    font-size: 20px;
+    padding: 33px,0;
+    height:44px ;
+}
+.main 
+{
+    /* background-color: yellow; */
+    width: 90vw;
+    height: 750px;
+}
+.container{
+    display: flex;
+}
+.infocontainer{
+    /* background-color:rgb(241, 20, 208) ; */
+    height: 60vh;
+    width: 80vw;
+    margin: 147px auto;
+    display: flex;
+    justify-content: end;
+}
+.sidebar nav li a{
+    text-decoration: none;
+    color:white;
+
+}
+.moreabout
+{
+    font-family: 'Cinzel', serif; 
+    font-weight: 500;
+    font-style: oblique;
+    font-size: 25px;  
+}
+.moreabout1
+{
+    font-family: 'Cinzel', serif;
+    font-weight: 500;
+    font-style: oblique;
+    font-size: 25px; 
+}
+.moreabout2
+{
+    font-family: 'Cinzel', serif;
+    font-weight: 500;
+    font-style: oblique; 
+    font-size: 25px; 
+}
+.hello{
+    font-size: 80px;
+    font-family: 'Source Code Pro', monospace;
+    font-family: 'Cinzel', serif;
+}
+.name{
+    font-size: 50px;
+    font-family: 'Lobster', cursive;
+}
+.about{
+    font-size: 35px;
+}
+.buttons{
+    padding: 15px;
+    margin: 5px;
+    margin-bottom: 6px;
+    font-size: 17px;
+    cursor: pointer;
+    margin: 0 3px;
+}
+.buttons button{
+    padding: 20px;
+    border-radius:20px ;
+    color: rgb(227, 247, 11);
+    background-color: rgb(23, 196, 253);
+    font-weight: bold;
+    font-size: 17px;
+    cursor: pointer;
+    margin: 0 3px;
+
+}
+button {
+    padding: 20px;
+    border-radius:20px ;
+    color: rgb(250, 250, 250);
+    background-color: rgb(243, 12, 54);
+    font-weight: bold;
+    font-size: 17px;
+    cursor: pointer;
+    margin: 0 3px;
+    padding: 15px;
+    margin: 5px;
+    margin-bottom: 6px;
+    text-decoration: none;
+}
+button:hover{
+    color: blue;
+    padding: 20px;
+    border-radius:20px ;
+    color: rgb(5, 191, 253);
+    background-color: rgb(236, 242, 244);
+    font-weight: bold;
+    font-size: 17px;
+    cursor: pointer;
+    margin: 0 3px;
+}
+
+.devinfo{
+display: flex;
+flex-direction: column;
+font-family: 'Source Code Pro', monospace;
+    justify-content: center;
+    align-items: center;
+}
+.devpic img{
+    width: 27vw;
+    justify-content: end;
+}
+.blogItems{
+    margin: 20px;
+    font-family: 'Cinzel', serif;
+
+}
+.blogcontainer h1
+{
+margin: 23px;
+font-family: 'Cinzel', serif;
+
+
+}
+.blogItems p{
+    font-family: 'Cinzel', serif;
+}
+@media(max-width:1430px){
+    *{
+        background-color:aqua;
+    }
+
+.sidebar{
+    transform: translate(-200px,0px);
+    position: relative;
+    
+}}
